@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>KPTK UI</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="layout-sidebar">
+			<aside class="sidebar">
+				<a class="active" href="#">All Widgets</a>
+				<a href="/pages">Pages</a>
+			</aside>
+
+			<main class="content">
+				<nav class="navbar">
+					<div class="navbar-left">
+						<button class="navbar-item sidebar-toggle">
+							<img class="w-full h-full object-cover" src="MenuOutline.svg" alt="MenuOutline" />
+						</button>
+					</div>
+
+					<div class="navbar-right">
+						<a href="#" class="navbar-item">
+							<img class="w-full h-full object-cover" src="UserOutline.svg" alt="UserOutline" />
+						</a>
+						<a href="#" class="navbar-item">
+							<img class="w-full h-full object-cover" src="BellOutline.svg" alt="BellOutline" />
+						</a>
+					</div>
+				</nav>
+
+				<div class="inner">
+					<div class="container">
+						<div class="card mb-4">
+							<h2 class="mb-10">Button Collection</h2>
+
+							<div class="flex flex-wrap gap-4 mb-4">
+								<button class="btn primary">Primary Button</button>
+								<button class="btn secondary">Secondary Button</button>
+								<button class="btn accent">Accent Button</button>
+							</div>
+							<div class="flex flex-wrap gap-4 mb-4">
+								<button class="btn outline-primary">Outline Primary Button</button>
+								<button class="btn outline-secondary">Outline Secondary Button</button>
+								<button class="btn outline-accent">Outline Accent Button</button>
+							</div>
+							<div class="flex flex-wrap gap-4 mb-4">
+								<button class="btn primary sm">Small Button</button>
+								<button class="btn primary">Base Button</button>
+								<button class="btn primary lg">Large Button</button>
+							</div>
+						</div>
+
+						<div class="card mb-4">
+							<h2 class="mb-10">Tables</h2>
+
+							<table class="table">
+								<thead>
+									<tr>
+										<th>ID</th>
+										<th>Name</th>
+										<th>Role</th>
+										<th>Speciality</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Muhammad Chandra Hasan</td>
+										<td>Full-Stack Developer</td>
+										<td>Web Design, Web Development, Automitation</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>Ardiansyah</td>
+										<td>CEO</td>
+										<td>System Design, Electronics, Management, Web Development</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="card mb-4">
+							<h2 class="mb-10">Form Components</h2>
+
+							<div class="input-text">
+								<input type="text" placeholder="Basic Text Input" />
+							</div>
+
+							<div class="input-text">
+								<label for="someInputText">This is the label</label>
+								<input type="text" id="someInputText" placeholder="With Label" />
+							</div>
+
+							<div class="flex flex-wrap gap-4 mb-4">
+								<div class="input-radio">
+									<input type="radio" name="radio" id="radio1" />
+									<label for="radio1">Radio Input 1</label>
+								</div>
+								<div class="input-radio">
+									<input type="radio" name="radio" id="radio2" />
+									<label for="radio2">Radio Input 2</label>
+								</div>
+								<div class="input-radio">
+									<input type="radio" name="radio" id="radio3" />
+									<label for="radio3">Radio Input 3</label>
+								</div>
+							</div>
+
+							<div class="flex flex-wrap gap-4 mb-4">
+								<div class="input-checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox1" />
+                                    <label for="checkbox1">Checkbox Input 1</label>
+                                </div>
+								<div class="input-checkbox">
+                                    <input type="checkbox" name="checkbox" id="checkbox2" />
+                                    <label for="checkbox2">Checkbox Input 2</label>
+                                </div>
+							</div>
+
+                            <div class="input-textarea">
+                                <textarea placeholder="Basic TextArea Input"></textarea>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+        <script src="js/style.js"></script>
+	</body>
+</html>
